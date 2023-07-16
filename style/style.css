@@ -1,4 +1,48 @@
 :root {
-    --primary-black : #1e2027;
-    
+    /* CSS HEX */
+--shark: #2c3038;
+--carnation: #f1564e;
+--mischka: #dfdee0;
+--mint-green: #83f99a;
+--rolling-stone: #74787a;
+--mid-gray: #5b5c64;
+--ferra: #744544;
+--regent-gray: #8c949c;
+
+
+/* SCSS RGB */
+--shark: rgba(44,48,56,1);
+--carnation: rgba(241,86,78,1);
+--mischka: rgba(223,222,224,1);
+--mint-green: rgba(131,249,154,1);
+--rolling-stone: rgba(116,120,122,1);
+--mid-gray: rgba(91,92,100,1);
+--ferra: rgba(116,69,68,1);
+--regent-gray: rgba(140,148,156,1);
+
+
 }
+
+.card {
+    background-color: var(--shark);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__title {
+    color: var(--mint-green);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card__subtitle {
+    color: var(--mischka);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* Bouncing dowm animation */
